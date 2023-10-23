@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>영화 검색</title>
+</head>
+
+<body>
+    <div class="H1ID">
+        <h1>내배캠 최고 평점 영화 콜렉션</h1>
+    </div>
+    <div class="search" onsubmit="handleSearch(event)">
+        <label>영화 제목 검색 : </label>
+        <input class="inputtxt" type="text" id="searchInput" placeholder="" />
+        <button id="searchButton">검색</button>
+    </div>
+    <div class="cArd">
+        <div id="mainCard"> </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
